@@ -7,5 +7,5 @@ element.innerHTML = 'Hi, This is my new server';
 //Moving the image
 var img = document.getElementById('madi');
 img.onclick = function(){
-    img.style.marginleft = '100px';
+    img.style.marginLeft = '100px';
 };
