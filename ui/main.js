@@ -1,5 +1,5 @@
 //content code
-var button = document.getElementById('counter');
+
 
 button.onclick = function(){
     
@@ -18,7 +18,7 @@ button.onclick = function(){
         }
     //Not done yet
     };
-    
+    var button = document.getElementById('counter');
     //Make the request
     request.open('GET', 'http://jashi202jg.imad.hasura-app.io/counter', true);
     request.send(null);
