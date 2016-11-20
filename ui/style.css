@@ -21,9 +21,39 @@ body {
 
 .container{
     max-width: 800px;
-    
+    margin: 0 auto;
     color: #008000;
     font-family: courier new;
     padding-left: 20px;
     padding-right: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #F0E68C;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    font-family: serif;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #BDB76B;
+}
+
+li a.active {
+    color: white;
+    background-color: #4CAF50;
 }
