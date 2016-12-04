@@ -12,7 +12,9 @@ body {
 }
 
 .img-medium {
-    height: 200px;
+    height:200px;
+    padding-top: 30px;
+    padding-right: 20px;
 }
 
 .container{
@@ -22,7 +24,7 @@ body {
     font-family: courier new;
     padding-left: 20px;
     padding-right: 20px;
-}
+} 
 
 ul {
     list-style-type: none;
