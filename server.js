@@ -61,7 +61,7 @@ var htmlTemplate = `<html>
         <hr>
         <h4>${heading}</h4>
         <hr>
-        <h5>${date}</h5>
+        <h5>${date.toDateString()}</h5>
         <div>
         ${content}
         </div>
@@ -108,8 +108,9 @@ app.get('/articles/:articleName', function (req,res){
     
 //articleName == article-one
 //articles[articleName] == {} content object for article one
+  var articleName= req.params.articleName;  
   
-  pool.query("SELECT * FROM article WHERE title= '" + req.params.articleName + "'", function(err,result){
+  pool.query("SELECT * FROM article WHERE title= " + req.params.articleName , function(err,result){
   if(err){
         res.status(500).send(err.toString());  
   }else{
