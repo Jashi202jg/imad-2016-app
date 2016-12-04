@@ -3,10 +3,6 @@ body {
     margin-top: 50px;
 }
 
-.center {
-    text-align: center;
-}
-
 .text-big {
     font-size: 300%;
 }
@@ -28,29 +24,33 @@ body {
     padding-right: 20px;
 }
 
-/* Remove margins and padding from the list, and add a black background color */
-ul.topnav {
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #F0E68C;
 }
 
-/* Float the list items side by side */
-ul.topnav li {float: left;}
+li {
+    float: left;
+}
 
-/* Style the links inside the list items */
-ul.topnav li a {
-    display: inline-block;
-    color: #f2f2f2;
+li a {
+    display: block;
+    color: #666;
     text-align: center;
+    font-family: serif;
     padding: 14px 16px;
     text-decoration: none;
-    transition: 0.3s;
-    font-size: 17px;
 }
 
-/* Change background color of links on hover */
-ul.topnav li a:hover {background-color: #4CAF50;}
+li a:hover:not(.active) {
+    background-color: #BDB76B;
+}
+
+li a.active {
+    color: white;
+    background-color: #4CAF50;
+}
 
