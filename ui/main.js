@@ -1,5 +1,5 @@
 //content code
-var button = document.getElementById('counter');
+/*var button = document.getElementById('counter');
 
 button.onclick = function(){
     
@@ -56,4 +56,4 @@ submit.onclick = function(){
     request.send(null);
 
    
-};    
+};    */
