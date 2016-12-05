@@ -19,9 +19,9 @@ var articles = {
     title: 'Article-one | Jashi202jg',
     heading: 'Article 1',
     date: 'Sep 25 2k16',
-    content: ` <p><i>Hi,every one.This is my first web page</i></p>
-            <p>This is another paragaph which tells how to code using HTML....blah..blah</p>
-            <p><b>I'll bre able to create web pages like a pro</b></p>`
+    content: ` <p><i>Hi; This is my first web app</i></p>
+            <p>Hatsoff...!!Imad team..!!!Thank you so much for this helpful course</p>
+            <p><b>Now...I'll be able to create web pages like a pro</b></p>`
 },
 'article-two' : {
     title: 'Article-two | Jashi202jg',
