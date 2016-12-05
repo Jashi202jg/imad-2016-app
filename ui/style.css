@@ -42,7 +42,7 @@ li a {
     display: block;
     color: #666;
     text-align: center;
-    font-family: serif;
+    font-family: Cursive;
     padding: 17px 16px;
     text-decoration: none;
 }
@@ -62,3 +62,9 @@ li .active {
 .floatright {
     float:right;
 }
+
+.img-circle {
+    border-radius: 50%;
+
+}
+
