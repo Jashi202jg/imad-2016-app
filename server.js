@@ -68,6 +68,7 @@ var htmlTemplate = `<html>
         <div class="floatleft">    
         <li><a href="/"><b>Home</b></a></li>
         <li><a href="/ui/Articles.html">Article</a></li>
+        <li><a href="#">Post</a></li>
         <li><a href="#">Contact</a></li>
         </div>
         <div class="floatright">
