@@ -17,7 +17,7 @@ app.use(morgan('combined'));
 var articles = { 
 'article-one' : {
     title: 'Article-one | Jashi202jg',
-    heading: '<p><b><font color="#FA8072" size="5" face="Cursive">3 Interesting Facts On India That You Had No Idea About</font></b>',
+    heading: '<p><b><font color="#00ff40" size="5" face="Cursive">3 Interesting Facts On India That You Had No Idea About</font></b>',
     date: 'Dec 15 2k16',
     content: ` <p><b><font color="#2F4F4F" size="4" face="Courier">1. A floating post office</font></b></p>
             <p><font color="#2F4F4F" size="3" face="Tw Cen MT">India has the largest postal network in the world with over 1, 55,015 post offices. A single post office on an average serves a population of 7,175 people. The floating post office in Dal Lake, Srinagar, was inaugurated in August 2011.</font></p><hr><br>
