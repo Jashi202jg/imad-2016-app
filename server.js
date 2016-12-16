@@ -36,7 +36,7 @@ var articles = {
 2. A crocodile can't stick it's tongue out.<br>
 3. A shrimp's heart is in it's head.<br>
 4. People say "Bless you" when you sneeze because when you sneeze,your heart stops for a mili-second.<br>
-5. In a study of 200,000 ostriches over a period of 80 years, no one reported a single case where an ostrich buried its head in the sand.<br></p></font><br><hr>`    
+5. In a study of 200,000 ostriches over a period of 80 years, no one reported a single case where an ostrich buried its head in the sand.<br></p></font><hr>`    
 },
 'article-three': {
     title: 'Article-three | Jashi202jg',
@@ -44,7 +44,7 @@ var articles = {
     date: 'Dec 17 2016.',
     content: `<p>Hi,every one.</p>
             <p>This is my Article 3.</p>
-            <p><b>This is my last article.</b></p>`        
+            <p><b>This is my last article.</b></p><hr>`        
 }
 };
 
