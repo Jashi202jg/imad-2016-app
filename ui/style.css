@@ -18,9 +18,9 @@ body {
 }
 
 .container{
-    max-width: 800px;
+    max-width: 400px;
     margin: 0 auto;
-    color: #008000;
+    color: #2F4F4F;
     padding-left: 20px;
     padding-right: 20px;
 } 
