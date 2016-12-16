@@ -17,23 +17,30 @@ app.use(morgan('combined'));
 var articles = { 
 'article-one' : {
     title: 'Article-one | Jashi202jg',
-    heading: 'Article 1',
-    date: 'Sep 25 2k16',
-    content: ` <p><i>Hi; This is my first web app</i></p>
-            <p>Hatsoff...!!Imad team..!!!Thank you so much for this helpful course</p>
-            <p><b>Now...I'll be able to create web pages like a pro</b></p>`
+    heading: '3 Interesting Facts On India That You Had No Idea About',
+    date: 'Dec 15 2k16',
+    content: ` <p><b><font color=" #FA8072" size="5" face="Courier">1. A floating post office</font></b></p><br>
+            <p>India has the largest postal network in the world with over 1, 55,015 post offices. A single post office on an average serves a population of 7,175 people. The floating post office in Dal Lake, Srinagar, was inaugurated in August 2011.</p><hr><br>
+            
+            <p><b><font color=" #FA8072" size="5" face="Courier">2. Water on the moon was discovered by India
+            </font></b></p><br><p>In September 2009, India's ISRO Chandrayaan- 1 using its Moon Mineralogy Mapper detected water on the moon for the first time.</p><hr><br>
+            
+            <p><b><font color=" #FA8072" size="5" face="Courier">3. India's first President only took 50% of his salary
+            </font></b></p><br><p>When Dr Rajendra Prasad was appointed the President of India, he only took 50% of his salary, claiming he did not require more than that. Towards the end of his 12-year tenure he only took 25% of his salary. The salary of the President was Rs 10,000 back then.</p><hr><br> `
 },
 'article-two' : {
     title: 'Article-two | Jashi202jg',
-    heading: 'Article 2',
-    date: 'Sep 26 2k16',
-    content: `<p><i>Hi,evereyone. This is my article two</i></p>
-            <p>Article 2 content goes here</p>
-            <p><b>Like</b></p>`    
+    heading: 'Amazing Facts',
+    date: 'Dec 16 2k16',
+    content: `<font color="#2F4F4F" sie="2" face="Tw Cen MT"><p>1. It is impossible to lick your elbow<br>
+2. A crocodile can't stick it's tongue out.<br>
+3. A shrimp's heart is in it's head.<br>
+4. People say "Bless you" when you sneeze because when you sneeze,your heart stops for a mili-second.<br>
+5. In a study of 200,000 ostriches over a period of 80 years, no one reported a single case where an ostrich buried its head in the sand.<br></p></font><br><hr>`    
 },
 'article-three': {
     title: 'Article-three | Jashi202jg',
-    heading: 'Article 3',
+    heading: 'Thanks for IMAD TEAM',
     date: 'Sep 27 2k16',
     content: `<p><i>Hi,every one.</i></p>
             <p>This is my Article 3</p>
@@ -54,6 +61,25 @@ var htmlTemplate = `<html>
     <link href="/ui/style.css" rel="stylesheet" />
   </head>
     <body>
+        <br><br>
+        <style>
+        body{background-image: url("http://www.walldevil.com/wallpapers/a87/pattern-texture-light-background-wallpaper-flower-image.jpg");} </style>
+        <div>
+        <ul>
+        <div class="floatleft">    
+        <li><a href="/"><b>Home</b></a></li>
+        <li><a href="/ui/Articles.html">Article</a></li>
+        <li><a href="#">Contact</a></li>
+        </div>
+        <div class="floatright">
+        <li class="right"><a href="#"><b><i>sign up</i></b></a></li>
+        <li class="right"><a href="#"><b><i>sign in</i></b></a></li>
+        </div>
+        </ul>
+        </div><div>
+        <img class="img-medium" src="/ui/madi.png" align="right" >
+        </div>
+        <br><br>
         <div class="container">
         <h4>${heading}</h4>
         <hr>
