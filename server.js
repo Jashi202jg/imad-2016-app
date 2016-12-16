@@ -30,7 +30,7 @@ var articles = {
 },
 'article-two' : {
     title: 'Article-two | Jashi202jg',
-    heading: '<p><b><font color="black" size="5" face="Cursive">Amazing Facts</font></b>',
+    heading: '<p><b><font color="#996666" size="5" face="Cursive">Amazing Facts</font></b>',
     date: 'Dec 16 2k16',
     content: `<font color="#2F4F4F" sie="2" face="Tw Cen MT"><p>1. It is impossible to lick your elbow<br>
 2. A crocodile can't stick it's tongue out.<br>
