@@ -20,13 +20,13 @@ var articles = {
     heading: '<p><b><font color="#FA8072" size="5" face="Cursive">3 Interesting Facts On India That You Had No Idea About</font></b>',
     date: 'Dec 15 2k16',
     content: ` <p><b><font color="#2F4F4F" size="4" face="Courier">1. A floating post office</font></b></p>
-            <p>India has the largest postal network in the world with over 1, 55,015 post offices. A single post office on an average serves a population of 7,175 people. The floating post office in Dal Lake, Srinagar, was inaugurated in August 2011.</p><hr><br>
+            <p><font color="#2F4F4F" size="3" face="Tw Cen MT">India has the largest postal network in the world with over 1, 55,015 post offices. A single post office on an average serves a population of 7,175 people. The floating post office in Dal Lake, Srinagar, was inaugurated in August 2011.</font></p><hr><br>
             
             <p><b><font color="#2F4F4F" size="4" face="Courier">2. Water on the moon was discovered by India
-            </font></b></p><p>In September 2009, India's ISRO Chandrayaan- 1 using its Moon Mineralogy Mapper detected water on the moon for the first time.</p><hr><br>
+            </font></b></p><p><font color="#2F4F4F" size="3" face="Tw Cen MT">In September 2009, India's ISRO Chandrayaan- 1 using its Moon Mineralogy Mapper detected water on the moon for the first time.</font></p><hr><br>
             
             <p><b><font color="#2F4F4F" size="4" face="Courier">3. India's first President only took 50% of his salary
-            </font></b></p><p>When Dr Rajendra Prasad was appointed the President of India, he only took 50% of his salary, claiming he did not require more than that. Towards the end of his 12-year tenure he only took 25% of his salary. The salary of the President was Rs 10,000 back then.</p><hr><br> `
+            </font></b></p><p><font color="#2F4F4F" size="3" face="Tw Cen MT">When Dr Rajendra Prasad was appointed the President of India, he only took 50% of his salary, claiming he did not require more than that. Towards the end of his 12-year tenure he only took 25% of his salary. The salary of the President was Rs 10,000 back then.</font></p><hr><br> `
 },
 'article-two' : {
     title: 'Article-two | Jashi202jg',
