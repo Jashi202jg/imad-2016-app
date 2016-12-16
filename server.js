@@ -17,22 +17,22 @@ app.use(morgan('combined'));
 var articles = { 
 'article-one' : {
     title: 'Article-one | Jashi202jg',
-    heading: '<p><b><font color="#00ff40" size="5" face="Cursive,Georgia">3 Interesting Facts On India That You Had No Idea About</font></b>',
-    date: 'Dec 15 2k16',
-    content: ` <p><b><font color="#2F4F4F" size="4" face="Courier,Georgia">1. A floating post office</font></b></p>
+    heading: '<p><b><font color="#00ff40" size="5" face="Cursive,Georgia">3 Interesting Facts On India That You Had No Idea About.</font></b>',
+    date: 'Dec 15 2016.',
+    content: ` <p><b><font color="#2F4F4F" size="4" face="Courier,Georgia">1. A floating post office.</font></b></p>
             <p><font color="#2F4F4F" size="3" face="Tw Cen MT,Verdana">India has the largest postal network in the world with over 1, 55,015 post offices. A single post office on an average serves a population of 7,175 people. The floating post office in Dal Lake, Srinagar, was inaugurated in August 2011.</font></p><hr><br>
             
-            <p><b><font color="#2F4F4F" size="4" face="Courier,Georgia">2. Water on the moon was discovered by India
+            <p><b><font color="#2F4F4F" size="4" face="Courier,Georgia">2. Water on the moon was discovered by India.
             </font></b></p><p><font color="#2F4F4F" size="3" face="Tw Cen MT,Verdana">In September 2009, India's ISRO Chandrayaan- 1 using its Moon Mineralogy Mapper detected water on the moon for the first time.</font></p><hr><br>
             
-            <p><b><font color="#2F4F4F" size="4" face="Courier,Georgia">3. India's first President only took 50% of his salary
+            <p><b><font color="#2F4F4F" size="4" face="Courier,Georgia">3. India's first President only took 50% of his salary.
             </font></b></p><p><font color="#2F4F4F" size="3" face="Tw Cen MT,Verdana">When Dr Rajendra Prasad was appointed the President of India, he only took 50% of his salary, claiming he did not require more than that. Towards the end of his 12-year tenure he only took 25% of his salary. The salary of the President was Rs 10,000 back then.</font></p><hr><br> `
 },
 'article-two' : {
     title: 'Article-two | Jashi202jg',
-    heading: '<p><b><font color="#996666" size="5" face="Cursive,Georgia">Amazing Facts</font></b>',
-    date: 'Dec 16 2k16',
-    content: `<font color="#2F4F4F" sie="2" face="Tw Cen MT,Verdana"><p>1. It is impossible to lick your elbow<br>
+    heading: '<p><b><font color="#996666" size="5" face="Cursive,Georgia">Amazing Facts.</font></b>',
+    date: 'Dec 16 2016.',
+    content: `<font color="#2F4F4F" sie="2" face="Tw Cen MT,Verdana"><p>1. It is impossible to lick your elbow.<br>
 2. A crocodile can't stick it's tongue out.<br>
 3. A shrimp's heart is in it's head.<br>
 4. People say "Bless you" when you sneeze because when you sneeze,your heart stops for a mili-second.<br>
@@ -40,11 +40,11 @@ var articles = {
 },
 'article-three': {
     title: 'Article-three | Jashi202jg',
-    heading: '<p><b><font color="blue" size="5" face="Cursive,Georgia">Thanks for IMAD TEAM</font></b>',
-    date: 'Dec 17 2k16',
+    heading: '<p><b><font color="blue" size="5" face="Cursive,Georgia">Thanks for IMAD TEAM...!!!</font></b>',
+    date: 'Dec 17 2016.',
     content: `<p>Hi,every one.</p>
-            <p>This is my Article 3</p>
-            <p><b>This is my last article</b></p>`        
+            <p>This is my Article 3.</p>
+            <p><b>This is my last article.</b></p>`        
 }
 };
 
