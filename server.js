@@ -55,10 +55,6 @@ var htmlTemplate = `<html>
   </head>
     <body>
         <div class="container">
-        <div>
-        <a href="/">Home</a>
-        </div>
-        <hr>
         <h4>${heading}</h4>
         <hr>
         <h5>${date}</h5>
