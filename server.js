@@ -80,7 +80,7 @@ var htmlTemplate = `<html>
         <div class="container">
         <h4>${heading}</h4>
         <hr>
-        <h5>${date}</h5><hr>
+        <h5>${date.toDateString()}</h5><hr>
         <div>
         ${content}
         </div>
