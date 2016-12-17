@@ -34,7 +34,7 @@ var htmlTemplate = `<html>
         <ul>
         <div class="floatleft">    
         <li><a href="/"><b>Home</b></a></li>
-        <li><a href="/ui/Articles.html">Articles</a></li>
+        <li><a href="/Articles.html">Articles</a></li>
         <li><a href="#">Post</a></li>
         </div>
         <div class="floatright">
