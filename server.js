@@ -120,6 +120,10 @@ app.get('/Articles.html', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'Articles.html'));
 });
 
+app.get('/Login.html', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'Login.html'));
+});
+
 app.get('/ui/madi.png', function (req, res) {
 res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
 });
