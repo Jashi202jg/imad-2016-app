@@ -38,8 +38,8 @@ var htmlTemplate = `<html>
         <li><a href="#">Post</a></li>
         </div>
         <div class="floatright">
-        <li class="right"><a href="#"><b><i>sign up</i></b></a></li>
-        <li class="right"><a href="#"><b><i>sign in</i></b></a></li>
+        <li class="right"><a href="/Login.html"><b><i>sign up</i></b></a></li>
+        <li class="right"><a href="/Register.html"><b><i>sign in</i></b></a></li>
         </div>
         </ul>
         </div><div>
@@ -126,6 +126,10 @@ app.get('/Articles.html', function (req, res) {
 
 app.get('/Login.html', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'Login.html'));
+});
+
+app.get('/Register.html', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'Register.html'));
 });
 
 app.get('/ui/madi.png', function (req, res) {
