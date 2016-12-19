@@ -4,6 +4,7 @@ var path = require('path');
 var Pool = require('pg').Pool;
 var crypto = require('crypto');
 var bodyParser = require('body-parser');
+var session = require('express-session');
 
 var config = {
   user: 'jashi202jg',
@@ -16,6 +17,10 @@ var config = {
 var app = express();
 app.use(morgan('combined'));
 app.use(bodyParser.json());
+app.use(session({
+    secret: 'someRandomSecretValue',
+    cookie: { maxAge: 1000 * 60 * 60 * 24 * 30}
+}));
 
 
 function createTemplate (data){
@@ -43,7 +48,22 @@ var htmlTemplate = `<html>
         <li class="right"><a href="/Login.html"><b><i>Login</i></b></a></li>
         </div>
         </ul>
-        </div><div>
+        </div>
+        <script type="text/javascript">
+	    function check_login(){		
+		var request=new XMLHttpRequest();		
+		request.onreadystatechange=function(){
+			if(request.status === 200){
+				var div=document.getElementById('check-login');					
+				div.innerHTML='<a href=\"\\\logout\">Logout</a>';
+			}
+		}
+		request.open('GET',"/check-login",true);
+		request.send(null);		
+	    }	
+     	check_login();
+    	</script>
+        <div>
         <img class="img-medium" src="/ui/madi.png" align="right" >
         </div>
         <div class="container">
@@ -129,6 +149,20 @@ app.get('/logout', function (req, res) {
    res.sendFile(path.join(__dirname, 'ui', 'index.html'));	   
 });
 
+app.get('/check-login', function (req, res) {
+    if (req.session && req.session.auth && req.session.auth.userId) {
+        pool.query('SELECT * FROM "user" WHERE id = $1', [req.session.auth.userId], function (err, result) {
+           if (err){
+               res.status(500).send('Not Logged In');
+            } else{
+               res.status(200).send("Logged In");   
+            }
+        });
+    }
+	else{
+		res.status(400).send('Not Logged In');
+    }
+});
 
 var pool = new Pool(config);
 app.get('/test-db', function (req, res) {
