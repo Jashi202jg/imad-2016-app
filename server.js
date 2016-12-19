@@ -40,8 +40,7 @@ var htmlTemplate = `<html>
         <li><a href="#">Post</a></li>
         </div>
         <div class="floatright">
-        <li class="right"><a href="/Login.html"><b><i>Sign in</i></b></a></li>
-        <li class="right"><a href="/Register.html"><b><i>Sign up</i></b></a></li>
+        <li class="right"><a href="/Login.html"><b><i>Login</i></b></a></li>
         </div>
         </ul>
         </div><div>
@@ -77,10 +76,7 @@ app.get('/hash/:input', function(req, res) {
    res.send(hashedString);
 });
 
-app.post('/create-user', function (req, res) {
-   // username, password
-   // {"username": "tanmai", "password": "password"}
-   // JSON
+app.post('/Register', function (req, res) {
    var username = req.body.username;
    var password = req.body.password;
    var salt = crypto.randomBytes(128).toString('hex');
@@ -95,7 +91,7 @@ app.post('/create-user', function (req, res) {
 });
 
 
-app.post('/login', function (req, res) {
+app.post('/Login', function (req, res) {
    var username = req.body.username;
    var password = req.body.password;
    
@@ -127,6 +123,12 @@ app.post('/login', function (req, res) {
       }
    });
 });
+
+app.get('/logout', function (req, res) {
+   delete req.session.auth;
+   res.sendFile(path.join(__dirname, 'ui', 'index.html'));	   
+});
+
 
 var pool = new Pool(config);
 app.get('/test-db', function (req, res) {
