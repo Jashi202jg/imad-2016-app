@@ -45,7 +45,7 @@ var htmlTemplate = `<html>
         <li><a href="#">Post</a></li>
         </div>
         <div class="floatright">
-        <li class="right"><a href="/Login.html"><b><i>Login</i></b></a></li>
+        <li class="right"><a href="/Login.html"><b><i>Login/Register</i></b></a></li>
         </div>
         </ul>
         </div>
